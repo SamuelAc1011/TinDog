@@ -3,7 +3,6 @@ body {
 }
 
 #title {
-  /*background-color: #FF4C68;*/
   background-color: #EF8172;
   color: #FFF;
 }
@@ -16,7 +15,7 @@ h1 {
   font-family: 'Montserrat', sans-serif;
   font-size: 3rem;
   line-height: 1.5;
-  text-align: left;
+  /*text-align: left;*/
 }
 
 h2 {
@@ -152,4 +151,15 @@ p {
 #footer {
   margin-top: 5%;
   text-align: center;
+}
+
+@media (max-width: 990px) {
+  #title {
+    text-align: center;
+  }
+
+  .title-image {
+    position: static;
+    transform: rotate(0);
+  }
 }
