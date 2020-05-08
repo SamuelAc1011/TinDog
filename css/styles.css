@@ -19,13 +19,13 @@ h1 {
 }
 
 h2 {
-  font-family: 'Montserrat',sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-size: 3rem;
   line-height: 1.5;
 }
 
 h3 {
-  font-family: 'Montserrat' , sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-size: 1.5rem;
 }
 
@@ -54,7 +54,6 @@ p {
 }
 
 /* Navigation Bar */
-
 .navbar {
   padding: 0 0 4.5rem;
 }
@@ -75,13 +74,11 @@ p {
 }
 
 /* Download button */
-
 .download-button {
-  margin: 5% 3% 5% 0;
+  margin: 3% 3% 5% 0;
 }
 
 /* Title image */
-
 .title-image {
   width: 60%;
   transform: rotate(25deg);
@@ -90,7 +87,6 @@ p {
 }
 
 /* Features */
-
 #features {
   padding: 7% 15%;
   background-color: white;
@@ -104,9 +100,7 @@ p {
 }
 
 /* Testimonials */
-
 .testimonials {
-
   text-align: center;
   background-color: #EF8172;
   color: white;
@@ -134,13 +128,12 @@ p {
 }
 
 /* Pricing Section */
-
 #pricing {
   padding: 100px;
   text-align: center;
 }
 
-.pricing-column{
+.pricing-column {
   padding: 3% 2%;
 }
 
@@ -153,6 +146,19 @@ p {
   text-align: center;
 }
 
+#cta {
+  background-color: #EF8172;
+  text-align: center;
+  color: white;
+}
+
+.cta-heading {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 3.5rem;
+  line-height: 1.5;
+  padding: 4% 0;
+}
+
 @media (max-width: 990px) {
   #title {
     text-align: center;
@@ -161,5 +167,9 @@ p {
   .title-image {
     position: static;
     transform: rotate(0);
+  }
+
+  #footer {
+    padding: 7% 15%;
   }
 }
